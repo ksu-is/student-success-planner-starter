@@ -1,113 +1,47 @@
-# Student Planner
+# Student Success Planner
 
-<div align="center">
-  <br>
-      <img src="https://github.com/RJohnPaul/CNN_for_Vision_Mod/blob/826787aba21a291d51bffef81492113979627c62/Frame%2023.png" alt="Project Banner">
-  </br>
-</div>
+## Project Overview
 
-<div align="center">
-  <br>
-      <img src="https://github.com/RJohnPaul/CNN_for_Vision_Mod/blob/491454d098865cc20cc09001af825c5ba97f27c7/Frame-5.png" alt="Project Banner">
-  </br>
-</div>
-</br>
+The Student Success Planner is a Python application designed to help students organize their academic responsibilities. The program allows users to keep track of assignments, deadlines, descriptions, and priorities in one place.
 
-The Student Planner is a Python script designed to help students manage and organize their academic tasks, deadlines, and study materials efficiently. It provides a simple command-line interface with various features to enhance task management.
+The goal of this project is to make it easier for students to manage their schoolwork, stay organized, and keep up with upcoming deadlines.
 
 ## Features
 
-1. **Add Task:** Allows users to add tasks with titles, deadlines, descriptions, and priorities (Low/Medium/High).
+1. **Add Tasks:** Add assignments with a title, deadline, description, and priority.
+2. **List Tasks:** Display all saved assignments and their information.
+3. **Remove Tasks:** Remove assignments that are no longer needed.
+4. **Upcoming Tasks:** View assignments with deadlines approaching.
+5. **Overdue Tasks:** Identify assignments that have passed their deadlines.
+6. **Edit Tasks:** Update assignment information.
+7. **Prioritize Tasks:** Organize assignments by priority and deadline.
+8. **Search Tasks:** Find assignments using keywords.
+9. **Save Tasks:** Save task information so it can be accessed later.
 
-2. **List Tasks:** Displays a list of all tasks, including their titles, deadlines, priorities, and descriptions.
+## Technologies
 
-3. **Remove Task:** Enables users to remove tasks based on their index in the task list.
-
-4. **Upcoming Tasks:** Shows upcoming tasks within a specified number of days.
-
-5. **Overdue Tasks:** Displays tasks that are overdue.
-
-6. **Edit Task:** Allows users to edit existing tasks, including their titles, deadlines, descriptions, and priorities.
-
-7. **Prioritize Tasks:** Sorts tasks based on priority and deadline.
-
-8. **Search Tasks:** Searches for tasks containing a specific keyword in their titles or descriptions.
-
-9. **Save and Exit:** Saves the current task data to a JSON file and exits the program.
-
-10. **Exit without Saving:** Exits the program without saving the current task data.
+- Python 3
+- JSON for saving task information
+- GitHub for project collaboration and version control
 
 ## Getting Started
 
-1. **Prerequisites:**
-   - Python 3.x installed on your machine.
+1. Install Python 3.
+2. Clone this repository.
+3. Open the project folder.
+4. Run the Python program using:
 
-2. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/RJohnPaul/student-planner.git
-   ```
+```bash
+python student_planner.py
+```
 
-3. **Navigate to the Project Directory:**
-   ```bash
-   cd student-planner
-   ```
+## Project Goals
 
-4. **Run the Script:**
-   ```bash
-   python student_planner.py
-   ```
-
-## Usage
-
-1. **Adding a Task:**
-   - Select option 1 from the menu.
-   - Enter the task details as prompted.
-
-2. **Listing Tasks:**
-   - Select option 2 from the menu.
-
-3. **Removing a Task:**
-   - Select option 3 from the menu.
-   - Enter the index of the task you want to remove.
-
-4. **Upcoming Tasks:**
-   - Select option 4 from the menu.
-   - Enter the number of days to look ahead.
-
-5. **Overdue Tasks:**
-   - Select option 5 from the menu.
-
-6. **Editing a Task:**
-   - Select option 6 from the menu.
-   - Enter the index of the task you want to edit.
-   - Enter new details as prompted.
-
-7. **Prioritizing Tasks:**
-   - Select option 7 from the menu.
-
-8. **Searching for Tasks:**
-   - Select option 8 from the menu.
-   - Enter a keyword to search for in task titles and descriptions.
-
-9. **Saving and Exiting:**
-   - Select option 9 from the menu.
-
-10. **Exiting without Saving:**
-    - Select option 10 from the menu.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+- Help students manage assignments and deadlines.
+- Make academic responsibilities easier to organize.
+- Allow students to identify important and overdue assignments.
+- Create a simple and easy-to-use planning application.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-<div align="center">
-  <br>
-      <img src="https://github.com/RJohnPaul/CNN_for_Vision_Mod/blob/491454d098865cc20cc09001af825c5ba97f27c7/Frame-5.png" alt="Project Banner">
-  </br>
-</div>
-</br>
-
----
+This project is based on the original Student Planner repository. Please refer to the included LICENSE file for licensing information.
